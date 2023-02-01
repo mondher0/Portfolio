@@ -196,6 +196,7 @@ body {
     margin-left: 50px;
     color: #f0f0f0;
     font-size: 30px;
+    transition: 0.3s;
 }
 #contact ul li i {
     color: #f0f0f0;
@@ -204,6 +205,9 @@ body {
     text-decoration: none;
     color: #f0f0f0;
     font-family: Arial, Helvetica, sans-serif;
+}
+#contact ul li:hover {
+    transform: translateY(-5px);
 }
 @media (max-width: 450px){
     #navbar {
